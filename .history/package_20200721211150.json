@@ -1,0 +1,17 @@
+{
+  "name": "learning-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BrunoCesarAngst/learning-es6.git",
+  "author": "brunocesarangst <bruno.angst@rede.ulbra.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel ./mainClass.js -o ./bundle.js -w",
+    "dev1": "babel ./mainClassSta.js -o ./bundle.js -w"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  }
+}
